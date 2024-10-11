@@ -1,0 +1,47 @@
+body {
+    background-color: #e0f7fa; /* Light cyan background for the whole page */
+    font-family: Arial, sans-serif; /* Change font for better readability */
+}
+
+.outer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 200px;
+}
+
+.inner-div {
+    background-color: #fff8dc; /* Lighter beige for the inner div */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    padding: 20px; /* Added padding for spacing */
+}
+
+h1 {
+    color: #4b0082; /* Indigo color for the heading */
+}
+
+.todos {
+    margin-top: 15px; /* Space above the todos */
+}
+
+input[type="text"] {
+    padding: 10px; /* Padding for input field */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    margin-left: 10px; /* Space between buttons */
+    padding: 10px 15px; /* Button padding */
+    background-color: #4caf50; /* Green background for add button */
+    color: white; /* White text for buttons */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
